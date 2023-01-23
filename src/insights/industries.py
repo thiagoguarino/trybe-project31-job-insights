@@ -17,13 +17,12 @@ def get_unique_industries(path: str) -> List[str]:
     list
         List of unique industries
     """
-    read_file = read(path)
+    jobs_data = read(path)
     all_industries_list = list()
 
-    for row in read_file:
-        if row["industry"]:
-            read_industry = row["industry"]
-            all_industries_list.append(read_industry)
+    for job in jobs_data:
+        if job['industry']:
+            all_industries_list.append(job["industry"])
 
     unique_industries = set(all_industries_list)
 
