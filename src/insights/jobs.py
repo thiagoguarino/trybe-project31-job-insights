@@ -42,7 +42,8 @@ def get_unique_job_types(path: str) -> List[str]:
     job_types_list = list()
 
     for job in jobs_data:
-        job_types_list.append(job["job_type"])
+        if job["job_type"]:
+            job_types_list.append(job["job_type"])
 
     unique_job_types = set(job_types_list)
 
