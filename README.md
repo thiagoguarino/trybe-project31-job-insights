@@ -43,13 +43,9 @@
 <details>
   <summary><strong>How to Execute the Tests</strong></summary><br />
 
-  to execute the tests check if you have the virtual environment up and running.
+  To execute the tests, first check if you have the virtual environment up and running.
 
-  <strong>To execute All tests</strong>
-
-  ```bash
-  $ python3 -m pytest
-  ```
+  <strong>To Execute All tests:</strong> ```$ python3 -m pytest```
 
   the file `pyproject.toml` already correctly configures pytest. However, in case you have issues with that and want a complete explicit output, the command is:
 
