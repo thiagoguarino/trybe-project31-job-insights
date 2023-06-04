@@ -1,4 +1,4 @@
-## Project 31 - Job Insights
+## Trybe Project 31 - Job Insights
 
 
 ## PROJECT OVERVIEW
@@ -20,62 +20,62 @@
     <b>Tasks and Status</b>
   </summary>
 
-  *Nome* | *Avaliação*
+  *description* | *status*
   --- | :---:
-  1 - Implemente a função read | :heavy_check_mark:
-  2 - Implemente a função get_unique_job_types | :heavy_check_mark:
-  3 - Implemente a função get_unique_industries | :heavy_check_mark:
-  4 - Implemente a função get_max_salary | :heavy_check_mark:
-  5 - Implemente a função get_min_salary | :heavy_check_mark:
-  6 - Implemente a função filter_by_job_type | :heavy_check_mark:
-  7 - Implemente a função filter_by_industry | :heavy_check_mark:
-  8 - Implemente a função matches_salary_range | :heavy_check_mark:
-  9 - Implemente a função filter_by_salary_range | :heavy_check_mark:
-  10 - Implemente um teste para a função count_ocurrences | :heavy_check_mark:
-  11 - Implemente um teste para a função read_brazilian_file | :heavy_check_mark:
-  12 - Implemente um teste para a função sort_by | :heavy_check_mark:
-  13.1 - Crie a rota /job recebendo o parâmetro index | :heavy_check_mark:
-  13.2 - Crie a view job, recebendo o parâmetro index | :heavy_check_mark:
-  13.3 - Implemente view job para que ela retorne status code 200 para jobs válidos | :heavy_check_mark:
-  13.4 - Implemente view job de forma a retornar o HTML exato de uma página de job | :heavy_check_mark:
+  1 - Implement a function read | :heavy_check_mark:
+  2 - Implement a function get_unique_job_types | :heavy_check_mark:
+  3 - Implement a function get_unique_industries | :heavy_check_mark:
+  4 - Implement a function get_max_salary | :heavy_check_mark:
+  5 - Implement a function get_min_salary | :heavy_check_mark:
+  6 - Implement a function filter_by_job_type | :heavy_check_mark:
+  7 - Implement a function filter_by_industry | :heavy_check_mark:
+  8 - Implement a function matches_salary_range | :heavy_check_mark:
+  9 - Implement a function filter_by_salary_range | :heavy_check_mark:
+  10 - Implement a test to count_ocurrences function | :heavy_check_mark:
+  11 - Implement a test to read_brazilian_file function | :heavy_check_mark:
+  12 - Implement a test to sort_by function | :heavy_check_mark:
+  13.1 - Create a route /job receiving index param | :heavy_check_mark:
+  13.2 - Create a view job, receiving index param | :heavy_check_mark:
+  13.3 - Implement view job so that it returns status code 200 to valid jobs | :heavy_check_mark:
+  13.4 - Implement view job that returns the exact HTML of a job's page | :heavy_check_mark:
 </details>
 
 <details>
-  <summary><strong>How to execute the Tests</strong></summary><br />
+  <summary><strong>How to Execute the Tests</strong></summary><br />
 
-  Para executar os testes certifique-se de que você está com o ambiente virtual ativado.
+  to execute the tests check if you have the virtual environment up and running.
 
-  <strong>Executar os testes</strong>
+  <strong>To execute All tests</strong>
 
   ```bash
   $ python3 -m pytest
   ```
 
-  O arquivo `pyproject.toml` já configura corretamente o pytest. Entretanto, caso você tenha problemas com isso e queira explicitamente uma saída completa, o comando é:
+  the file `pyproject.toml` already correctly configures pytest. However, in case you have issues with that and want a complete explicit output, the command is:
 
   ```bash
   python3 -m pytest -s -vv
   ```
 
-  Caso precise executar apenas um arquivo de testes basta executar o comando:
+  In case you need to execute just one test file, use the command:
 
   ```bash
   python3 -m pytest tests/nomedoarquivo.py
   ```
 
-  Caso precise executar apenas uma função de testes basta executar o comando:
+  In case you need to execute just one test function, use the command:
 
   ```bash
   python3 -m pytest -k nome_da_func_de_tests
   ```
 
-  Se desejar que os testes parem de ser executados quando acontecer o primeiro erro, use o parâmetro `-x`
+  If you wish that the tests stop from being executed when the first error happens, use the param `-x`
 
   ```bash
   python3 -m pytest -x tests/test_jobs.py
   ```
-  
-  Para executar um teste específico de um arquivo, basta executar o comando:
+
+  To execute a specific test of a file, type the command:
 
   ```bash
   python3 -m pytest tests/nomedoarquivo.py::test_nome_do_teste
