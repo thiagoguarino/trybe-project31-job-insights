@@ -7,35 +7,25 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
 
-# Project 31 - Job Insights
+## Project 31 - Job Insights
 
 
-<details>
-  <summary><strong>Project Overview</strong></summary>
+## PROJECT OVERVIEW
 
-  This project analyzes data related to the Job market. Project tasks are incorporared in a Flask Web App. Unit tests are also part of the tasks for the application. There is also a bonus task to code a feature for the Flask app.
+  This is project #1 of the Computer Science Module at [Trybe Bootcamp](https://www.betrybe.com/)
+
+  This project analyzes data related to the Job market. Project tasks are incorporared in a Flask/Jinja2 Web App. Unit tests are also part of the tasks for the application. There is also a bonus task to code a feature for the app.
 
   The data was extracted from [Glassdoor](https://www.glassdoor.com.br/) and obtained through [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data).
 
-  🚵 Skills:
-  <ul>
-    <li>Utilizar o terminal interativo do Python.</li>
-    <li>Utilizar estruturas condicionais e de repetição.</li>
-    <li>Utilizar funções built-in do Python.</li>
-    <li>Utilizar tratamento de exceções.</li>
-    <li>Realizar a manipulação de arquivos.</li>
-    <li>Escrever funções.</li>
-    <li>Escrever testes com Pytest.</li>
-    <li>Escrever seus próprios módulos e importá-los em outros códigos.</li>
-  </ul>
-</details>
+
+## Details and Tasks
 
 <details>
   <summary>
-    <b>Details and Tasks</b>
+    <b>1 - Implemente a função `read`</b>
   </summary>
 
-  ## 1 - Implemente a função `read`
 > **Implemente em:** src/insights/jobs.py
 
 Para começarmos a processar os dados, devemos antes carregá-los em nossa aplicação. Esta função será responsável por abrir o arquivo CSV e retornar os dados no formato de uma lista de dicionários.
@@ -84,8 +74,13 @@ Bernardo,Santos,999999
 - A função retorna a quantidade correta de itens na lista
 - Nos dicionários retornados pela função, as chaves correspondem aos cabeçalhos do arquivo
 </details>
+</details>
 
-## 2 - Implemente a função `get_unique_job_types`
+<details>
+  <summary>
+    <b>2 - Implemente a função `get_unique_job_types`</b>
+  </summary>
+
 > **Implemente em:** `src/insights/jobs.py`
 
 Agora que temos como carregar os dados, podemos começar a extrair informação deles. Primeiro, vamos identificar quais tipos de empregos existem.
@@ -105,8 +100,14 @@ Agora que temos como carregar os dados, podemos começar a extrair informação 
 - A função retorna os valores corretos
 - A função desconsidera valores vazios
 </details>
+</details>
 
-## 3 - Implemente a função `get_unique_industries`
+
+<details>
+  <summary>
+    <b>3 - Implemente a função `get_unique_industries`</b>
+  </summary>
+
 > **Implemente em:** `src/insights/industries.py`
 
 Da mesma forma, agora iremos identificar quais indústrias estão representadas nesse conjunto de dados.
@@ -125,8 +126,14 @@ Da mesma forma, agora iremos identificar quais indústrias estão representadas 
 - A função retorna a quantidade correta de valores
 - A função retorna os valores corretos
 </details>
+</details>
 
-## 4 - Implemente a função `get_max_salary`
+
+<details>
+  <summary>
+    <b>4 - Implemente a função `get_max_salary`</b>
+  </summary>
+
 > **Implemente em:** `src/insights/salaries.py`
 
 Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora encontrar o maior valor de todas as faixas.
@@ -144,8 +151,14 @@ Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora enco
 - A função carrega os dados do arquivo recebido como parâmetro
 - A função retorna o valor correto
 </details>
+</details>
 
-## 5 - Implemente a função `get_min_salary`
+
+<details>
+  <summary>
+    <b>5 - Implemente a função `get_min_salary`</b>
+  </summary>
+
 > **Implemente em:** `src/insights/salaries.py`
 
 Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora encontrar o menor valor de todas as faixas.
@@ -163,11 +176,12 @@ Os dados apresentam faixas salariais para cada emprego exibido. Vamos agora enco
 - A função carrega os dados do arquivo recebido como parâmetro
 - A função retorna o valor correto
 </details>
+</details>
 
-## 6 - Implemente a função `filter_by_job_type`
-<p align="center">
-  <img src="/.images/filter.png" alt="Contagem" width="400"/>
-</p>
+<details>
+  <summary>
+    <b>6 - Implemente a função `filter_by_job_type`</b>
+  </summary>
 
 > **Implemente em:** `src/insights/jobs.py`
 
@@ -188,8 +202,13 @@ Os empregos estão listados em um aplicativo web. Para permitir que a pessoa usu
 - A função retorna os valores na ordem correta
 - A função retorna uma lista vazia para `job_types` ausentes nos `jobs` recebidos
 </details>
+</details>
 
-## 7 - Implemente a função `filter_by_industry`
+<details>
+  <summary>
+    <b>7 - Implemente a função `filter_by_industry`</b>
+  </summary>
+
 > **Implemente em:** `src/insights/industries.py`
 
 Do mesmo modo, o aplicativo precisa permitir uma filtragem por indústria. Vamos precisar implementar esse filtro também.
@@ -209,8 +228,13 @@ Do mesmo modo, o aplicativo precisa permitir uma filtragem por indústria. Vamos
 - A função retorna os valores na ordem correta
 - A função retorna uma lista vazia para `job_types` ausentes nos `jobs` recebidos
 </details>
+</details>
 
-## 8 - Implemente a função `matches_salary_range`
+<details>
+  <summary>
+    <b>8 - Implemente a função `matches_salary_range`</b>
+  </summary>
+
 > **Implemente em:** `src/insights/salaries.py`
 
 O aplicativo vai precisar filtrar os empregos por salário também. Como uma função auxiliar, implemente `matches_salary_range` para conferir que o salário procurado está dentro da faixa salarial daquele emprego. Vamos aproveitar também para conferir se a faixa salarial faz sentido -- isto é, se o valor mínimo é menor que o valor máximo.
@@ -237,8 +261,14 @@ O aplicativo vai precisar filtrar os empregos por salário também. Como uma fun
 - A função lança um `ValueError` se o parâmetro `salary` tiver valor não numérico
 - A função lança um `ValueError` se as chaves `min_salary` ou `max_salary` estiverem ausentes no dicionário
 </details>
+</details>
 
-## 9 - Implemente a função `filter_by_salary_range`
+
+<details>
+  <summary>
+    <b>9 - Implemente a função `filter_by_salary_range`</b>
+  </summary>
+
 > **Implemente em:** `src/insights/salaries.py`
 
 Agora vamos implementar o filtro propriamente dito. Para esta filtragem, podemos usar a função auxiliar implementada no requisito anterior -- tomando o cuidado de descartar os empregos que apresentarem faixas salariais inválidas.
@@ -263,13 +293,16 @@ Agora vamos implementar o filtro propriamente dito. Para esta filtragem, podemos
 - Se `salary` for uma string que represente um número, a função deverá se comportar tal como se `salary` fosse um número
 - Se `salary` for uma string que não represente um número válido, deverá ser levantado um `ValueError`
 </details>
+</details>
 
-## 10 - Implemente um teste para a função `count_ocurrences`
+
+<details>
+  <summary>
+    <b>10 - Implemente um teste para a função `count_ocurrences`</b>
+  </summary>
+
 > **Implemente em:** `tests/counter/test_counter.py`
 
-  <p align="center">
-    <img src="/.images/flask.png" alt="Imagem sobre contar ocorrências" width="600"/>
-  </p>
 
 A empresa cliente contratou um relatório que informa a quantidade de ocorrências das palavra *Python* e *Javascript* nos dados e, para isso, temos uma implementação pronta em `src/pre_built/counter.py`. Durante o desenvolvimento, sofremos com alguns `bugs`, que já foram resolvidos. Para termos certeza e confiança da nossa entrega, no entanto, e não corrermos riscos, precisaremos de *testes automatizados* que garantam isso!
 
@@ -301,8 +334,13 @@ O nome deste teste **deve** ser `test_counter`, e ele deve garantir que atenda e
 - Se o teste não é um falso positivo, ou seja, teste que passa sem realmente testar o código.
 
 </details>
+</details>
 
-## 11 - Implemente um teste para a função `read_brazilian_file`
+<details>
+  <summary>
+    <b>11 - Implemente um teste para a função `read_brazilian_file`</b>
+  </summary>
+
 > **Implemente em:** `tests/brazilian/test_brazilian_jobs.py`
 
 A empresa cliente analisa relatórios em inglês, porém agora ela quer expandir seus negócios aqui para o Brasil e deseja analisar relatórios em português também. No entanto, as chaves do `dict` que usamos pra organizar os dados **devem** continuar em inglês. Ou seja: para gerar o relatório, deveremos ler as chaves em português e traduzi-las para inglês para povoar os nossos dados.
@@ -341,8 +379,14 @@ O nome deste teste **deve** ser `test_brazilian_jobs`, e ele deve garantir que a
 - O teste aprova implementações corretas.
 - Se o teste não é um falso positivo, ou seja, teste que passa sem realmente testar o código.
 </details>
+</details>
 
-## 12 - Implemente um teste para a função `sort_by`
+
+<details>
+  <summary>
+    <b>12 - Implemente um teste para a função `sort_by`</b>
+  </summary>
+
 > **Implemente em:** `tests/sorting/test_sorting.py`
 
 Por fim, espera-se que a pessoa usuária possa escolher um critério de ordenação para exibir os empregos. Já temos uma implementação para essa ordenação em `src/pre_built/sorting.py`, mas queremos ter certeza de que ela funciona e, principalmente, que não deixará de funcionar conforme vamos implementando novos recursos. Precisamos então escrever um *teste*!
@@ -370,8 +414,13 @@ Esse teste deve se chamar `test_sort_by_criteria` e garantir que a função func
 - O teste aprova implementações corretas.
 - Se o teste não é um falso positivo, ou seja, teste que passa sem realmente testar o código.
 </details>
+</details>
 
-  ## 13 - (`Bonus`) Implement a Job's Page
+<details>
+  <summary>
+    <b>13 - (`Bonus`) Implement a Job's Page</b>
+  </summary>
+
 > **implement on:** `src/flask_app/routes_and_views.py`
 
 Para fechar com chave de ouro, que tal testar o quanto você consegue aprender de Flask apenas vendo como fizemos as páginas de `index` e de `jobs`, e tentar criar uma página que irá exibir todas as informações de um job em específico?
@@ -401,33 +450,30 @@ Para fechar com chave de ouro, que tal testar o quanto você consegue aprender d
 - A página de cada um dos jobs deve retornar o status code 200.
 - A página de um job específico (escolhido previamente) deve retornar o HTML exato esperado.
 
----
+</details>
 </details>
 
 </details>
 
 
-<details>
-  <summary><strong>How to Run the App</strong></summary>
+## HOW TO RUN THE APP
 
-   1. Clone o repositório:
+  1. clone o repositório
 
    - `git clone git@github.com:thiagoguarino/trybe-project31-job-insights.git`
   
-  2. Entre na pasta do repositório que você acabou de clonar: 
+  2. enter the project's folder 
 
    - `cd trybe-project31-job-insights`
 
-  3. Crie o ambiente virtual para o projeto
+  3. create and open the project's virtual environment
 
   - `python3 -m venv .venv && source .venv/bin/activate`
   
-  4. Instale as dependências
+  4. install dependencies
 
   - `python3 -m pip install -r dev-requirements.txt`
 
   5. To execute the app
 
   - `flask run`  
-
-</details>
