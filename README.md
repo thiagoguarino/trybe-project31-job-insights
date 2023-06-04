@@ -5,11 +5,9 @@
 
   This is project #1 of the Computer Science Module at [Trybe Bootcamp](https://www.betrybe.com/).
 
-  This project analyzes data related to the Jobs market. Project tasks are incorporared in a Web App. Unit tests are also part of the tasks for the application. There is also a bonus task to code a feature for the app.
+  This project analyzes data related to the Jobs market. Project tasks are incorporared in a Web App. Unit tests are also part of the tasks for the application. There is also a bonus task to code a feature for the app. The data was extracted from [Glassdoor](https://www.glassdoor.com.br/) and obtained through [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data).
 
-  The data was extracted from [Glassdoor](https://www.glassdoor.com.br/) and obtained through [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data).
-
-  Stack: Python3, Flask/Jinja2, Pytest.
+  Stack: Python3, Pytest, Flask/Jinja2.
 
   <strong>FYI: every file that does not have a code authorship comment, was originally made by Trybe Bootcamp.</strong>
 
@@ -19,6 +17,8 @@
   <summary>
     <b>Tasks and Status</b>
   </summary>
+
+  * tasks 13 are bonus tasks
 
   *description* | *status*
   --- | :---:
@@ -41,7 +41,7 @@
 </details>
 
 <details>
-  <summary><strong>How to Execute the Tests</strong></summary><br />
+  <summary><strong>How to Execute the Tests</strong></summary>
 
   To execute the tests, first check if you have the virtual environment up and running.
 
