@@ -7,7 +7,7 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
 
-# Project 31 - Job Insights!
+# Project 31 - Job Insights
 
 
 <details>
@@ -403,50 +403,6 @@ Para fechar com chave de ouro, que tal testar o quanto você consegue aprender d
 
 ---
 </details>
-
-<details>
-  <summary>
-    <b>Project Bonus Task</b>
-  </summary>
-  
-  ## 13 - (`Bonus`) Implement a Job's Page
-> **implement on:** `src/flask_app/routes_and_views.py`
-
-Para fechar com chave de ouro, que tal testar o quanto você consegue aprender de Flask apenas vendo como fizemos as páginas de `index` e de `jobs`, e tentar criar uma página que irá exibir todas as informações de um job em específico?
-
-- A função deve se chamar `job`.
-- A função deve ser decorada com a rota `/job/<index>`.
-- A função deve receber um parâmetro `index`.
-- A função deve chamar a `read` para ter uma lista com todos os jobs.
-- A função deve chamar a `get_job`, declarada no arquivo `src/flask_app/more_insights.py`, para selecionar um job específico pelo `index`.
-- A função deve renderizar o template `job.jinja2`, passando um parâmetro `job` contendo o job retornado pela `get_job`.
-
-<details>
-  <summary>
-    <b>✍️ Teste manual</b>
-  </summary>
-  Após criar a view, cheque se, na página que lista os jobs, aparecem links para jobs específicos nos números que identificam cada job. Ao clicar em um destes links, você deve ser levado a uma página que lista todas as informações do job.
-</details>
-
-<details>
-  <summary>
-    <b>🤖 O que será verificado pelo avaliador</b>
-  </summary>
-
-
-- A rota `/job/<index>` existe.
-- A view `job` existe no arquivo `src/flask_app/routes_and_views.py` e recebe o parâmetro `index` (e somente ele).
-- A página de cada um dos jobs deve retornar o status code 200.
-- A página de um job específico (escolhido previamente) deve retornar o HTML exato esperado.
-
-</details>
-
-
-</details>
-
-
-</details>
-
 
 </details>
 
