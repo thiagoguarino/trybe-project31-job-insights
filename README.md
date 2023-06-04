@@ -1,12 +1,3 @@
-<!-- Olá, Tryber!
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
-
 ## Project 31 - Job Insights
 
 
@@ -18,6 +9,7 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 
   The data was extracted from [Glassdoor](https://www.glassdoor.com.br/) and obtained through [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data).
 
+  <strong>FYI: every file that does not have a code authorship comment, was originally made by Trybe Bootcamp.</strong>
 
 ## Details and Tasks
 

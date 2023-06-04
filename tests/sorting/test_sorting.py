@@ -1,6 +1,7 @@
 from src.pre_built.sorting import sort_by
 
 
+# file authorship: thiago guarino
 def test_sort_by_criteria():
     mocked_jobs = [
         {"date_posted": "2022-01-12", "min_salary": 4000, "max_salary": 8000},

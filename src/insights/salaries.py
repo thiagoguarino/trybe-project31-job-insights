@@ -2,6 +2,7 @@ from typing import Union, List, Dict
 from src.insights.jobs import read
 
 
+# file authorship: thiago guarino
 def get_max_salary(path: str) -> int:
     """Get the maximum salary of all jobs
 
