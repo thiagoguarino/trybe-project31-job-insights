@@ -54,25 +54,25 @@
   In case you need to execute just one test file, use the command:
 
   ```bash
-  python3 -m pytest tests/nomedoarquivo.py
+  python3 -m pytest tests/filename.py
   ```
 
   In case you need to execute just one test function, use the command:
 
   ```bash
-  python3 -m pytest -k nome_da_func_de_tests
+  python3 -m pytest -k test_function_name
   ```
 
   If you wish that the tests stop from being executed when the first error happens, use the param `-x`
 
   ```bash
-  python3 -m pytest -x tests/test_jobs.py
+  python3 -m pytest -x tests/filename.py
   ```
 
   To execute a specific test of a file, type the command:
 
   ```bash
-  python3 -m pytest tests/nomedoarquivo.py::test_nome_do_teste
+  python3 -m pytest tests/filename.py::test_function_name
   ```
 </details>
 
