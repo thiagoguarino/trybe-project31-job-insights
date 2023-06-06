@@ -7,6 +7,23 @@
 
   This project analyzes data related to the Jobs market. Project tasks are incorporared in a Web App. Unit tests are also part of the tasks for the application. There is also a bonus task to code a feature for the app. The data was extracted from [Glassdoor](https://www.glassdoor.com.br/) and obtained through [Kaggle](https://www.kaggle.com/atharvap329/glassdoor-data-science-job-data). Stack: Python3, Pytest, Flask/Jinja2.
 
+<details>
+  <summary>
+    <b>skills developed building the product</b>
+  </summary>
+  Habilidades a serem trabalhadas:
+  <ul>
+    <li>Utilizar o terminal interativo do Python.</li>
+    <li>Utilizar estruturas condicionais e de repetição.</li>
+    <li>Utilizar funções built-in do Python.</li>
+    <li>Utilizar tratamento de exceções.</li>
+    <li>Realizar a manipulação de arquivos.</li>
+    <li>Escrever funções.</li>
+    <li>Escrever testes com Pytest.</li>
+    <li>Escrever seus próprios módulos e importá-los em outros códigos.</li>
+  </ul>
+</details>
+
   <strong>FYI: every file that does not have a code authorship comment, was originally made by Trybe Bootcamp.</strong>
 
 ## PROJECT TASKS
