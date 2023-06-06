@@ -11,16 +11,14 @@
   <summary>
     <b>skills developed building the product</b>
   </summary>
-  Habilidades a serem trabalhadas:
   <ul>
-    <li>Utilizar o terminal interativo do Python.</li>
-    <li>Utilizar estruturas condicionais e de repetição.</li>
-    <li>Utilizar funções built-in do Python.</li>
-    <li>Utilizar tratamento de exceções.</li>
-    <li>Realizar a manipulação de arquivos.</li>
-    <li>Escrever funções.</li>
-    <li>Escrever testes com Pytest.</li>
-    <li>Escrever seus próprios módulos e importá-los em outros códigos.</li>
+    <li>use python loops and conditional operators</li>
+    <li>use Python built-in functions</li>
+    <li>Error Handling</li>
+    <li>File Handling</li>
+    <li>code user-defined functions</li>
+    <li>code unit tests with Pytest</li>
+    <li>code our own modules and importing them in other files</li>
   </ul>
 </details>
 
