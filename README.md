@@ -1,5 +1,6 @@
 ## Trybe Project 31 - Job Insights
 
+- MADE BY [Thiago Guarino](https://www.linkedin.com/in/thiago-guarino/).
 
 ## PROJECT OVERVIEW
 
