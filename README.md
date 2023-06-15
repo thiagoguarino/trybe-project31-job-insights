@@ -2,7 +2,7 @@
 
 ## PROJECT OVERVIEW
 
-  - **MADE BY [Thiago Guarino](https://www.linkedin.com/in/thiago-guarino/)**
+  **MADE BY [Thiago Guarino](https://www.linkedin.com/in/thiago-guarino/)**
 
   This is project #1 of the Computer Science Module at [Trybe Bootcamp](https://www.betrybe.com/).
 
